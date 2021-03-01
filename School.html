@@ -1,0 +1,453 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <style>
+        #dashboard {
+            opacity: 0.7;
+            font-size: 14px;
+            padding-left: 15px;
+            padding-top: 10px;
+
+
+        }
+
+        .ashwi {
+            text-decoration: none;
+            color: black;
+            font-size: 17px;
+        }
+
+        .fildcolor {
+            background-color: #EEF2F7;
+            padding: px
+        }
+
+        .logo1 {
+            background-color: #67809F;
+            margin-left: 30px;
+            width: 150px;
+            height: 228px;
+        }
+
+        .logotext1 {
+            color: whitesmoke;
+            font-size: 14px;
+            padding-top: 115px;
+            padding-left: 10px;
+
+        }
+
+        .logo2 {
+            background-color: #25c180;
+            padding: 15px;
+            margin: 0 10px 10px;
+            height: 110px;
+            width: 150px;
+        }
+
+        .logo31 {
+            background-color: #4b77be;
+            padding: 15px;
+            margin: 0 px;
+            height: 110px;
+            width: 150px;
+        }
+
+        .logo4 {
+            background-color: #9a12b3;
+            padding: 15px;
+            margin: 0 10px 10px;
+            height: 110px;
+            width: 150px;
+        }
+
+        .logo5 {
+            background-color: #e87e04;
+            padding: 15px;
+            margin: 0;
+            height: 110px;
+            width: 320px;
+        }
+
+        .logo6 {
+            background-color: #4b8df8;
+            padding: 9px;
+            margin: 0 10px;
+            height: 110px;
+            width: 150px;
+        }
+
+        .logo7 {
+            background-color: #22313f;
+            padding: 9px;
+            margin: 0 10px;
+            height: 110px;
+            width: 150px;
+        }
+
+        .logo8 {
+            background-color: #d05454;
+            padding: 9px;
+            margin: 0;
+            height: 110px;
+            width: 150px;
+        }
+
+        .logo9 {
+            background-color: #e35b5a;
+            padding: 9px;
+            margin: 0 10px;
+            height: 110px;
+            width: 150px;
+        }
+
+        .logo10 {
+            background-color: #1aa29b;
+            padding: 15px;
+            margin: 0;
+            height: 110px;
+            width: 320px;
+        }
+
+        .logo11 {
+            background-color: #f7ca18;
+            padding: 9px;
+            margin: 0 10px;
+            height: 110px;
+            width: 150px;
+        }
+
+        .logotext2 {
+            color: white;
+            padding-top: 15px;
+            padding-right: 20px;
+            font-size: 14px;
+        }
+
+        .logotext3 {
+            color: white;
+            padding-top: 25px;
+            padding-right: 20px;
+            font-size: 14px;
+        }
+
+
+        .logo3 {
+            background-color: #25c180;
+            padding: 15px;
+            /* margin: 0 10px 10px ; */
+            height: 50%;
+        }
+
+        a {
+            text-decoration: none;
+        }
+    </style>
+
+    <title>School ERP System</title>
+
+</head>
+
+<body>
+    <br>
+    <div class="text-center my-4">
+        <h1>School</h1>
+    </div>
+    <br> <br>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Dashboard</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Administation
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-dark">
+                            <li><a class="dropdown-item" href="#">School Profile </a></li>
+                            <li><a class="dropdown-item" href="#">Academics Session </a></li>
+
+                            <li><a class="dropdown-item" href="#">Asset Management</a></li>
+                            <li><a class="dropdown-item" href="#">Health Management</a></li>
+                            <li><a class="dropdown-item" href="#">Library Management</a></li>
+                            <li><a class="dropdown-item" href="#">Visitor I-Card</a></li>
+
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Academics
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-dark">
+                            <li><a class="dropdown-item" href="#">Attendance </a></li>
+                            <li><a class="dropdown-item" href="#"> Time-Table </a></li>
+
+                            <li><a class="dropdown-item" href="#">Activity& Events</a></li>
+                            <li><a class="dropdown-item" href="#">Holiday</a></li>
+                            <li><a class="dropdown-item" href="#">Homework</a></li>
+                            <li><a class="dropdown-item" href="#">Syllabus</a></li>
+                            <li><a class="dropdown-item" href="#">Question Bank</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Student
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-dark">
+                            <li><a class="dropdown-item" href="#">Stydent Details</a></li>
+                            <li><a class="dropdown-item" href="#">Add Student </a></li>
+
+                            <li><a class="dropdown-item" href="#">Student Map</a></li>
+                            <li><a class="dropdown-item" href="#">Student Enquiry</a></li>
+                            <li><a class="dropdown-item" href="#">Promote Student</a></li>
+                            <li><a class="dropdown-item" href="#">Update Lat Long </a></li>
+                            <li><a class="dropdown-item" href="#">Certificate</a></li>
+                            <li><a class="dropdown-item" href="#">I-Card</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Employee
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-dark">
+                            <li><a class="dropdown-item" href="#">Employee Details</a></li>
+                            <li><a class="dropdown-item" href="#">Add Employee</a></li>
+                            <li><a class="dropdown-item" href="#">Employee I Card</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Finance
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-dark">
+                            <li><a class="dropdown-item" href="#">Dashboard </a></li>
+                            <li><a class="dropdown-item" href="#">Free Invoice </a></li>
+
+                            <li><a class="dropdown-item" href="#">Free Receipt</a></li>
+                            <li><a class="dropdown-item" href="#">Free Summary</a></li>
+
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Transport
+                        </a>
+
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Collaboration
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-dark">
+                            <li><a class="dropdown-item" href="#">Mail </a></li>
+                            <li><a class="dropdown-item" href="#">SMS </a></li>
+
+                            <li><a class="dropdown-item" href="#">PTM</a></li>
+                            <li><a class="dropdown-item" href="#">Media & News</a></li>
+                            <li><a class="dropdown-item" href="#">Photo Gallery</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Exam & Reports
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Master</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <br>
+    <div class="container-fluid">
+        <div class="row-1">
+            <div class="col-md-12 " style="margin-left: 15px;">
+                <h5> Dashboard
+                    <small> School Management System</small>
+                </h5>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container fildcolor my-4 ">
+        <div id="dashboard">
+            <p><i class="fa fa-home" style="font-size:28px;color:rgb(144, 144, 144)"></i></i> Dashboard</p>
+        </div>
+        <div class="row">
+            <div class="col-lg-2 " id="mar">
+                <div class="logo1">
+                    <a href="updatepage.html" target="blank">
+                        <i class="fa fa-bank"
+                            style="font-size:55px;color:white; padding-left: 45px; padding-top: 30px; "></i>
+                        <p class="logotext1">Student Profile</p>
+                </div>
+                </a>
+            </div>
+            <div class="col-lg-10 ">
+                <div style="display: flex;  ">
+                    <div class="logo2">
+                        <a href="updatepage.html" target="blank">
+                            <i class="fa fa-group" style="font-size:55px;color:white;padding-left: 25px;"></i>
+                            <p class="logotext2">Student </p>
+                        </a>
+                    </div>
+
+                    <div class="logo31">
+                        <a href="updatepage.html" target="blank">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="55" height="55" style="color:white; "
+                                fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
+                                <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+                            </svg>
+                            <p class="logotext2">Profile </p>
+                        </a>
+                    </div>
+
+
+                    <div class="logo4">
+                        <a href="updatepage.html" target="blank"> <i class="fa fa-rupee"
+                                style="font-size:55px;color:white;padding-left: 45px;"></i>
+                            <p class="logotext2">Finance </p>
+                        </a>
+                    </div>
+
+                    <div class="logo5">
+                        <a href="updatepage.html" target="blank"> <i class="fa fa-bus"
+                                style="font-size:48px;color:white;padding-left: 10px;"></i>
+                            <p class="logotext2">Transport </p>
+                        </a>
+                    </div>
+
+                    <div class="logo6">
+                        <a href="updatepage.html" target="blank"> <i class="material-icons"
+                                style="font-size:55px;color:whitesmoke;padding-left: 5px;">emails</i>
+                            <p class="logotext2">Email</p>
+                        </a>
+                    </div>
+
+                </div>
+                <div style="display: flex;">
+
+                    <div class="logo7">
+                        <a href="updatepage.html" target="blank"> <i class="fa fa-wechat"
+                                style="font-size:48px;color:white;padding-left: 35px"></i>
+                            <p class="logotext3">SMS </p>
+                        </a>
+                    </div>
+
+                    <div class="logo8">
+                        <a href="updatepage.html" target="blank"> <i class="fa fa-cogs"
+                                style="font-size:48px;color:white;padding-left: 30px"></i>
+                            <p class="logotext3">Master </p>
+                        </a>
+                    </div>
+
+
+                    <div class="logo9">
+                        <a href="updatepage.html" target="blank"> <i class="fa fa-clock-o"
+                                style="font-size:48px;color:white;padding-left: 35px"></i>
+                            <p class="logotext3">Time-table</p>
+                        </a>
+                    </div>
+
+
+                    <div class="logo10">
+                        <a href="updatepage.html" target="blank"> <svg xmlns="http://www.w3.org/2000/svg" width="55"
+                                height="55" style="color: white;" fill="currentColor" class="bi bi-calendar-week"
+                                viewBox="0 0 16 16">
+                                <path
+                                    d="M11 6.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm-3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm-5 3a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1z" />
+                                <path
+                                    d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z" />
+                            </svg>
+                            <p class="logotext2">Activity and Event </p>
+                        </a>
+                    </div>
+
+                    <div class="logo11">
+                        <a href="updatepage.html" target="blank"> <svg xmlns="http://www.w3.org/2000/svg" width="55"
+                                height="55" style="color: white;" fill="currentColor" class="bi bi-book"
+                                viewBox="0 0 16 16">
+                                <path
+                                    d="M1 2.828c.885-.37 2.154-.769 3.388-.893 1.33-.134 2.458.063 3.112.752v9.746c-.935-.53-2.12-.603-3.213-.493-1.18.12-2.37.461-3.287.811V2.828zm7.5-.141c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492V2.687zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783z" />
+                            </svg>
+
+                            <p class="logotext2">Time-table</p>
+                        </a>
+                    </div>
+
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- footer start -->
+    <br>
+    <div class="container my-4">
+        <div class="row">
+            <div class="col-md-4 col-lg-4 col-sm-12">
+                <p class="text-left"><a class=" ashwi" href="https://schotest.com/">www.schotest.com</a></p>
+            </div>
+
+
+            <div class="text-center col-md-4 col-lg-4 col-sm-12">
+                <p class="ashwi  ">+91 9315514745</p>
+            </div>
+
+
+            <div  style="padding-left: 240px;" class="col-md-4 col-lg-4 col-sm-12">
+                <p class="text-right"><a class="ashwi" href="https://schotest.com/">info@schotest.com</a> </p>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
